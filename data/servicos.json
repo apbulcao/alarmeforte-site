@@ -1,0 +1,384 @@
+{
+  "servicos": [
+    {
+      "titulo": "Sistema de CFTV",
+      "slug": "cftv",
+      "meta_title": "Sistema de CFTV no Rio de Janeiro | AlarmeForte",
+      "meta_description": "Câmeras de segurança HD com monitoramento remoto para residências, empresas e condomínios no Rio de Janeiro. Instalação profissional desde 1992. Orçamento gratuito.",
+      "hero_subtitulo": "Câmeras HD com acesso remoto 24h via celular — para sua residência, empresa ou condomínio no Rio de Janeiro.",
+      "descricao": [
+        "O sistema de CFTV (Circuito Fechado de TV) é a solução mais eficaz para monitorar e registrar o que acontece no seu patrimônio em tempo real. Com câmeras de alta definição instaladas estrategicamente, você acompanha tudo de onde estiver — pelo celular, tablet ou computador.",
+        "A AlarmeForte projeta e instala sistemas de CFTV desde 1992, com câmeras analógicas e IP de última geração. Cada projeto é desenvolvido sob medida: analisamos os pontos cegos, a iluminação e as necessidades específicas do local antes de qualquer instalação.",
+        "Além das câmeras, oferecemos gravadores digitais (DVR/NVR) com armazenamento local e backup em nuvem — garantindo que as imagens estejam disponíveis mesmo em caso de tentativa de sabotagem do equipamento."
+      ],
+      "diferenciais": [
+        {
+          "titulo": "Projeto personalizado",
+          "descricao": "Visitamos o local antes da instalação para identificar os pontos críticos e dimensionar o sistema corretamente. Sem soluções genéricas."
+        },
+        {
+          "titulo": "Câmeras HD com visão noturna",
+          "descricao": "Imagens nítidas durante o dia e a noite, com câmeras coloridas noturnas e infravermelho de longo alcance."
+        },
+        {
+          "titulo": "Acesso remoto pelo celular",
+          "descricao": "Acompanhe ao vivo ou revise gravações de qualquer lugar, a qualquer hora, direto no seu smartphone."
+        },
+        {
+          "titulo": "Suporte técnico 24h",
+          "descricao": "Equipe de manutenção disponível a noite toda. Se algo parar de funcionar, chamamos você — não o contrário."
+        }
+      ],
+      "perfis": [
+        {
+          "tipo": "Residencial",
+          "beneficios": ["Monitore a entrada e o perímetro remotamente", "Identifique visitantes antes de abrir o portão", "Imagens gravadas disponíveis em caso de incidente"]
+        },
+        {
+          "tipo": "Comercial",
+          "beneficios": ["Reduza furtos internos e externos com câmeras visíveis", "Monitore a operação de qualquer filial remotamente", "Evidência em imagem para seguradoras e polícia"]
+        },
+        {
+          "tipo": "Condominial",
+          "beneficios": ["Cobertura completa de áreas comuns, garagem e acessos", "Imagens disponíveis para síndico e conselho", "Integração com portaria e controle de acesso"]
+        }
+      ],
+      "faqs": [
+        {
+          "pergunta": "Quantas câmeras eu preciso para a minha casa?",
+          "resposta": "Depende do tamanho e da planta da residência. Em casas típicas, de 4 a 8 câmeras cobrem a entrada principal, portão, perímetro e garagem. Fazemos um diagnóstico gratuito para dimensionar o projeto corretamente."
+        },
+        {
+          "pergunta": "Por quanto tempo as imagens ficam gravadas?",
+          "resposta": "Com um HD de 1TB, um sistema de 4 câmeras Full HD grava entre 15 e 30 dias em loop. Para guardar mais tempo ou ter backup extra, oferecemos armazenamento em nuvem."
+        },
+        {
+          "pergunta": "É possível ver as câmeras pelo celular?",
+          "resposta": "Sim. Todos os sistemas que instalamos têm acesso remoto via app (iOS e Android). Você acompanha ao vivo e revisa gravações de qualquer lugar com internet."
+        },
+        {
+          "pergunta": "As câmeras funcionam à noite?",
+          "resposta": "Sim. Instalamos câmeras com infravermelho ou visão colorida noturna, que captam imagens nítidas mesmo em ambientes sem iluminação artificial."
+        },
+        {
+          "pergunta": "Qual a diferença entre câmera analógica e IP?",
+          "resposta": "Câmeras IP transmitem via rede e oferecem maior resolução, enquanto as analógicas usam cabo coaxial. Para novos projetos recomendamos IP; para ampliação de sistemas existentes, adaptamos ao que já está instalado."
+        }
+      ]
+    },
+    {
+      "titulo": "Alarme Monitorado 24h",
+      "slug": "alarme-monitorado",
+      "meta_title": "Alarme Monitorado 24h no Rio de Janeiro | AlarmeForte",
+      "meta_description": "Alarme monitorado com central própria 24 horas para residências, empresas e condomínios no Rio de Janeiro. Resposta imediata a qualquer acionamento. Orçamento gratuito.",
+      "hero_subtitulo": "Central de monitoramento própria, ativa 24 horas — com resposta imediata a qualquer acionamento no Rio de Janeiro.",
+      "descricao": [
+        "O alarme monitorado vai além do alarme tradicional: quando acionado, nossa central de monitoramento é notificada imediatamente e toma as providências necessárias — desde contato com o responsável até acionamento das autoridades.",
+        "A AlarmeForte opera com central de monitoramento própria, não terceirizada. Isso significa equipe treinada que conhece cada cliente, tempo de resposta reduzido e comunicação direta — sem intermediários.",
+        "Instalamos sensores de presença, abertura de portas e janelas, detectores de fumaça e botões de pânico — integrados a um painel inteligente que você controla pelo app ou pelo teclado."
+      ],
+      "diferenciais": [
+        {
+          "titulo": "Central própria, não terceirizada",
+          "descricao": "Nossa equipe de monitoramento conhece seu endereço, seus contatos e seu histórico. Resposta mais rápida, comunicação direta."
+        },
+        {
+          "titulo": "Resposta em minutos no RJ",
+          "descricao": "Equipe técnica de plantão 24h no Rio de Janeiro para atendimentos emergenciais quando necessário."
+        },
+        {
+          "titulo": "Controle pelo app",
+          "descricao": "Arme e desarme o sistema remotamente, receba notificações em tempo real e consulte o histórico de acionamentos pelo celular."
+        },
+        {
+          "titulo": "Integração com CFTV",
+          "descricao": "O alarme pode ser integrado ao sistema de câmeras: ao ser acionado, a central visualiza as câmeras do local imediatamente."
+        }
+      ],
+      "perfis": [
+        {
+          "tipo": "Residencial",
+          "beneficios": ["Proteção total da residência mesmo quando vazia", "Notificação imediata no celular a qualquer acionamento", "Botão do pânico para emergências dentro de casa"]
+        },
+        {
+          "tipo": "Comercial",
+          "beneficios": ["Proteção fora do horário comercial e fins de semana", "Histórico de acionamentos para auditoria", "Integração com câmeras e controle de acesso"]
+        },
+        {
+          "tipo": "Condominial",
+          "beneficios": ["Proteção de áreas comuns, salão de festas e garagem", "Central notifica síndico e portaria simultaneamente", "Sistema escalável para condomínios de qualquer porte"]
+        }
+      ],
+      "faqs": [
+        {
+          "pergunta": "O que acontece quando o alarme dispara?",
+          "resposta": "Nossa central recebe o alerta em segundos. Um operador tenta contato com o responsável cadastrado. Se não houver resposta ou se confirmado o incidente, acionamos a polícia ou equipe de intervenção conforme o plano contratado."
+        },
+        {
+          "pergunta": "O sistema funciona sem internet ou energia elétrica?",
+          "resposta": "Sim. O painel tem bateria de backup que mantém o sistema funcionando por horas sem energia. A comunicação com a central usa linha telefônica ou chip GSM como alternativa à internet."
+        },
+        {
+          "pergunta": "Posso armar e desarmar pelo celular?",
+          "resposta": "Sim. O app permite controle total do sistema remotamente, além de receber notificações a cada acionamento e consultar o histórico de eventos."
+        },
+        {
+          "pergunta": "Qual o prazo de fidelidade do monitoramento?",
+          "resposta": "Trabalhamos com contratos anuais renováveis. Os valores variam conforme o porte do sistema. Entre em contato para um orçamento personalizado."
+        },
+        {
+          "pergunta": "Posso instalar em apartamento?",
+          "resposta": "Sim. Temos soluções específicas para apartamentos, com sensores discretos e sem necessidade de obra. A instalação é feita por nossa equipe técnica com o mínimo de interferência."
+        }
+      ]
+    },
+    {
+      "titulo": "Portaria Inteligente",
+      "slug": "portaria-inteligente",
+      "meta_title": "Portaria Inteligente para Condomínios no Rio de Janeiro | AlarmeForte",
+      "meta_description": "Portaria inteligente e virtual para condomínios no Rio de Janeiro. Reduza até 60% dos custos com porteiro tradicional. Controle remoto, câmeras e interfonia 24h. Orçamento gratuito.",
+      "hero_subtitulo": "Gerencie o acesso ao seu condomínio remotamente — com redução de até 60% em relação à portaria tradicional.",
+      "descricao": [
+        "A portaria inteligente substitui o porteiro presencial por uma central de atendimento remoto que opera 24 horas, 7 dias por semana. Câmeras, interfonia e controle de acesso são integrados em um único sistema gerenciado à distância.",
+        "Para condomínios no Rio de Janeiro, a redução de custos é significativa: sem encargos trabalhistas, férias, 13º salário e rotatividade. O investimento no sistema geralmente se paga em menos de 12 meses comparado ao custo do porteiro tradicional.",
+        "Moradores autorizam a entrada de visitantes pelo app ou pelo interfone do apartamento. O síndico acessa relatórios de acesso em tempo real e configura as permissões sem precisar de chamado técnico."
+      ],
+      "diferenciais": [
+        {
+          "titulo": "Redução de até 60% nos custos",
+          "descricao": "Sem encargos trabalhistas, férias ou rotatividade. O sistema se paga em menos de 12 meses para a maioria dos condomínios."
+        },
+        {
+          "titulo": "Atendimento humano 24h",
+          "descricao": "Nossa central de portaria remota atende visitantes, entregadores e emergências com operadores treinados, 24 horas por dia."
+        },
+        {
+          "titulo": "App para moradores e síndico",
+          "descricao": "Moradores autorizam visitas pelo celular. O síndico acessa relatórios, configura acessos e recebe alertas em tempo real."
+        },
+        {
+          "titulo": "Integração total de sistemas",
+          "descricao": "Câmeras, interfonia digital, cancelas e controle de acesso em um único sistema integrado — sem gambiarras ou adaptações."
+        }
+      ],
+      "perfis": [
+        {
+          "tipo": "Residencial",
+          "beneficios": ["Autorize visitantes pelo celular de qualquer lugar", "Histórico completo de entradas e saídas", "Redução de custo sem abrir mão da segurança"]
+        },
+        {
+          "tipo": "Comercial",
+          "beneficios": ["Controle de acesso por horário e perfil de colaborador", "Relatórios de presença integrados ao RH", "Acesso remoto para gestão de múltiplas unidades"]
+        },
+        {
+          "tipo": "Condominial",
+          "beneficios": ["Redução imediata de custos operacionais", "Eliminação de problemas com porteiros (falta, postura, turnover)", "Cobertura 24h com qualidade uniforme e auditável"]
+        }
+      ],
+      "faqs": [
+        {
+          "pergunta": "O que acontece em caso de emergência sem porteiro físico?",
+          "resposta": "Nossa central atende 24 horas e aciona os protocolos de emergência — desde contato com moradores até acionamento de serviços de emergência. O sistema também integra com alarmes e câmeras para visão imediata da situação."
+        },
+        {
+          "pergunta": "É possível ter porteiro físico e portaria remota ao mesmo tempo?",
+          "resposta": "Sim. Muitos condomínios adotam o modelo híbrido: porteiro físico no horário comercial e portaria remota à noite e fins de semana, reduzindo o custo sem eliminar a presença humana."
+        },
+        {
+          "pergunta": "Como funciona a autorização de entregadores?",
+          "resposta": "O operador da central identifica o entregador, comunica ao morador via app ou interfone, e libera ou nega o acesso conforme a resposta. O morador também pode configurar autorizações prévias para prestadores frequentes."
+        },
+        {
+          "pergunta": "Meu condomínio antigo pode adotar portaria inteligente?",
+          "resposta": "Na maioria dos casos sim. Fazemos uma vistoria técnica gratuita para avaliar a infraestrutura existente e propor a melhor solução, aproveitando o cabeamento e equipamentos já instalados quando possível."
+        }
+      ]
+    },
+    {
+      "titulo": "Interfonia Condominial",
+      "slug": "interfonia",
+      "meta_title": "Interfonia Condominial no Rio de Janeiro | AlarmeForte",
+      "meta_description": "Instalação e manutenção de interfonia condominial no Rio de Janeiro. Sistemas analógicos e digitais, todas as marcas. Mais de 30 anos de experiência. Orçamento gratuito.",
+      "hero_subtitulo": "Sistemas de interfonia analógicos e digitais para condomínios — instalação profissional e manutenção especializada no Rio de Janeiro.",
+      "descricao": [
+        "O sistema de interfonia é o primeiro ponto de contato entre visitantes e moradores de um condomínio. Um sistema bem instalado e mantido garante comunicação clara, controle de acesso eficiente e longevidade do equipamento.",
+        "A AlarmeForte instala e mantém sistemas de interfonia analógicos e digitais das principais marcas do mercado — Intelbras, HDL, Comelit, AGL e outras. Atendemos condomínios residenciais e comerciais de qualquer porte, desde prédios com 4 unidades até grandes torres.",
+        "Além da instalação de novos sistemas, realizamos modernizações de infraestrutura existente, substituição de componentes defeituosos e manutenção preventiva — tudo com peças originais e garantia de serviço."
+      ],
+      "diferenciais": [
+        {
+          "titulo": "Todas as marcas e tecnologias",
+          "descricao": "Trabalhamos com sistemas analógicos tradicionais, vídeo porteiro colorido, interfonia IP e integração com apps de acesso remoto."
+        },
+        {
+          "titulo": "Manutenção preventiva",
+          "descricao": "Programa de manutenção periódica que identifica problemas antes que causem falhas — sem surpresas para o condomínio."
+        },
+        {
+          "titulo": "Peças originais com garantia",
+          "descricao": "Usamos apenas peças originais dos fabricantes, com nota fiscal e garantia. Sem gambiarras que comprometem a segurança."
+        },
+        {
+          "titulo": "Atendimento rápido no RJ",
+          "descricao": "Equipe técnica baseada no Rio de Janeiro com tempo de resposta para emergências. Falha na interfonia é urgência — tratamos assim."
+        }
+      ],
+      "perfis": [
+        {
+          "tipo": "Residencial",
+          "beneficios": ["Comunicação clara com visitantes antes de abrir o portão", "Vídeo porteiro com câmera para identificação visual", "Integração com fechadura elétrica ou cancela"]
+        },
+        {
+          "tipo": "Comercial",
+          "beneficios": ["Controle de acesso para funcionários e visitantes", "Ramais para diferentes departamentos ou andares", "Registro de chamadas e acessos"]
+        },
+        {
+          "tipo": "Condominial",
+          "beneficios": ["Sistema completo com ramal em cada unidade", "Interfone na portaria e nas áreas comuns", "Compatível com portaria inteligente e controle de acesso"]
+        }
+      ],
+      "faqs": [
+        {
+          "pergunta": "Qual a diferença entre interfonia analógica e digital?",
+          "resposta": "A analógica usa cabeamento dedicado para cada ramal (cabo par trançado), é mais simples e robusta para condomínios já cabeados. A digital (ou IP) transmite voz e vídeo via rede estruturada, oferece mais recursos e facilidade de expansão, mas exige infraestrutura de rede adequada."
+        },
+        {
+          "pergunta": "Precisamos trocar todo o sistema para modernizar?",
+          "resposta": "Não necessariamente. Em muitos casos é possível substituir apenas a central e os terminais externos, aproveitando o cabeamento existente. Fazemos uma vistoria gratuita para avaliar o que pode ser reaproveitado."
+        },
+        {
+          "pergunta": "E em prédios antigos com cabeamento deteriorado?",
+          "resposta": "Temos experiência com retrofit completo em prédios antigos — substituição de cabeamento, modernização dos ramais e instalação de nova central. O projeto é feito para causar o mínimo de transtorno aos moradores."
+        },
+        {
+          "pergunta": "É possível adicionar câmera ao sistema de interfonia existente?",
+          "resposta": "Depende do sistema atual. Sistemas mais modernos suportam a adição de vídeo. Para sistemas mais antigos, geralmente fazemos a substituição da unidade externa por um modelo com câmera integrada."
+        }
+      ]
+    },
+    {
+      "titulo": "Controle de Acesso Facial",
+      "slug": "controle-acesso",
+      "meta_title": "Controle de Acesso Facial no Rio de Janeiro | AlarmeForte",
+      "meta_description": "Controle de acesso por biometria facial para residências, empresas e condomínios no Rio de Janeiro. Sem chaves, sem cartões, máxima segurança. Orçamento gratuito.",
+      "hero_subtitulo": "Biometria facial para controle de acesso — sem chaves, sem cartões, sem falhas humanas.",
+      "descricao": [
+        "O controle de acesso facial elimina chaves, cartões e senhas — substituindo tudo pela característica mais única e intransferível de cada pessoa: o rosto. A tecnologia de reconhecimento facial de última geração garante precisão de 99,9% e resposta em menos de 0,5 segundo.",
+        "Para empresas e condomínios, o benefício vai além da segurança: há um registro completo de quem entrou e saiu, em qual horário, e por qual porta. Esse histórico é acessível em tempo real pelo app ou pelo painel de gestão.",
+        "A AlarmeForte instala e configura sistemas de controle de acesso facial integrados ao sistema de alarme e CFTV existente — ou como solução autônoma, sem necessidade de reformas."
+      ],
+      "diferenciais": [
+        {
+          "titulo": "Sem chaves nem cartões",
+          "descricao": "Chaves se perdem, cartões são clonados. O rosto é a credencial mais segura e impossível de esquecer ou transferir."
+        },
+        {
+          "titulo": "Registro completo de acesso",
+          "descricao": "Cada entrada e saída é registrada com foto, horário e identificação do usuário — disponível em tempo real no app ou no painel."
+        },
+        {
+          "titulo": "Integração com câmeras e alarme",
+          "descricao": "O sistema se integra com CFTV e alarme: acesso não autorizado gera alerta imediato na central de monitoramento."
+        },
+        {
+          "titulo": "Cadastro simples e rápido",
+          "descricao": "Novos usuários são cadastrados em menos de 1 minuto, sem necessidade de técnico no local. Remoção de acesso é instantânea."
+        }
+      ],
+      "perfis": [
+        {
+          "tipo": "Residencial",
+          "beneficios": ["Acesso sem chave para todos os moradores", "Histórico de entradas disponível para o proprietário", "Autorização temporária para prestadores de serviço"]
+        },
+        {
+          "tipo": "Comercial",
+          "beneficios": ["Controle de acesso por horário e área para cada colaborador", "Relatório de presença integrado", "Bloqueio imediato em caso de demissão, sem recolher crachá"]
+        },
+        {
+          "tipo": "Condominial",
+          "beneficios": ["Acesso exclusivo para moradores e autorizados", "Registro completo disponível para o síndico", "Integração com portaria inteligente e interfonia"]
+        }
+      ],
+      "faqs": [
+        {
+          "pergunta": "O sistema funciona com óculos ou máscara?",
+          "resposta": "Sim. Os equipamentos que instalamos usam tecnologia de reconhecimento 3D que funciona com óculos, chapéu e variações no visual. Para máscaras, o sistema pode ser configurado para aceitar reconhecimento parcial ou exigir complemento por PIN."
+        },
+        {
+          "pergunta": "O que acontece em caso de falta de energia?",
+          "resposta": "O sistema tem bateria de backup e pode ser configurado para liberar ou bloquear o acesso automaticamente em caso de queda de energia, conforme a política de segurança do local."
+        },
+        {
+          "pergunta": "É possível usar foto para enganar o sistema?",
+          "resposta": "Não. Os equipamentos que instalamos usam detecção de vivacidade (liveness detection), que diferencia um rosto real de uma foto ou tela. Tentativas de fraude são registradas e geram alerta."
+        },
+        {
+          "pergunta": "Como funciona o cadastro de novos usuários?",
+          "resposta": "O administrador (síndico, gerente ou proprietário) faz o cadastro diretamente no painel web ou no app, sem necessidade de presença do técnico. O novo usuário fica com acesso liberado imediatamente após o cadastro."
+        }
+      ]
+    },
+    {
+      "titulo": "Monitoramento Remoto",
+      "slug": "monitoramento-remoto",
+      "meta_title": "Monitoramento Remoto de Câmeras no Rio de Janeiro | AlarmeForte",
+      "meta_description": "Monitoramento remoto de câmeras com backup em nuvem para residências e empresas no Rio de Janeiro. Acesse de qualquer lugar, a qualquer hora. Orçamento gratuito.",
+      "hero_subtitulo": "Acesse suas câmeras de qualquer lugar e tenha as imagens protegidas em nuvem — 24 horas, 7 dias por semana.",
+      "descricao": [
+        "O monitoramento remoto permite que você acompanhe ao vivo o que acontece no seu patrimônio de qualquer lugar do mundo, a qualquer hora. Seja pelo celular, tablet ou computador — com a mesma qualidade de imagem do gravador local.",
+        "O backup em nuvem resolve o ponto vulnerável dos sistemas tradicionais: se o DVR for roubado ou danificado, as imagens gravadas na nuvem ficam intactas e acessíveis. O armazenamento é criptografado e seguro.",
+        "A AlarmeForte configura o acesso remoto em todos os sistemas que instala, e oferece planos de armazenamento em nuvem adaptados a cada necessidade — de 7 dias a 90 dias de histórico."
+      ],
+      "diferenciais": [
+        {
+          "titulo": "Backup em nuvem criptografado",
+          "descricao": "Imagens gravadas na nuvem mesmo que o equipamento local seja danificado ou roubado. Acesso exclusivo por senha segura."
+        },
+        {
+          "titulo": "Acesso de múltiplos dispositivos",
+          "descricao": "Até 5 usuários com diferentes níveis de permissão podem acessar as câmeras simultaneamente — família, sócios, equipe de segurança."
+        },
+        {
+          "titulo": "Alertas em tempo real",
+          "descricao": "Notificações push no celular quando há detecção de movimento em zonas configuradas — você é avisado antes de precisar checar."
+        },
+        {
+          "titulo": "Planos de armazenamento flexíveis",
+          "descricao": "De 7 a 90 dias de histórico na nuvem, com opção de download de clipes específicos para uso como prova ou registro."
+        }
+      ],
+      "perfis": [
+        {
+          "tipo": "Residencial",
+          "beneficios": ["Acompanhe sua casa remotamente em viagens", "Receba alertas de movimento em áreas sensíveis", "Histórico disponível para conferir incidentes passados"]
+        },
+        {
+          "tipo": "Comercial",
+          "beneficios": ["Monitore filiais e depósitos de qualquer lugar", "Compartilhe acesso com sócios ou gerentes por unidade", "Evidência em nuvem para seguradoras em caso de sinistro"]
+        },
+        {
+          "tipo": "Condominial",
+          "beneficios": ["Síndico e conselho acessam câmeras pelo app", "Histórico preservado mesmo em caso de vandalismo ao DVR", "Relatório de eventos exportável para assembleias"]
+        }
+      ],
+      "faqs": [
+        {
+          "pergunta": "Precisa de internet rápida para funcionar?",
+          "resposta": "Para acesso remoto em qualidade Full HD, recomendamos pelo menos 10 Mbps de upload no local das câmeras. Para visualização no celular, 4G já é suficiente. O sistema também funciona em redes mais lentas, com qualidade de imagem adaptada automaticamente."
+        },
+        {
+          "pergunta": "As imagens na nuvem são seguras?",
+          "resposta": "Sim. O armazenamento usa criptografia AES-256 e acesso exclusivo por credenciais do proprietário. Nem a AlarmeForte acessa suas imagens sem sua autorização."
+        },
+        {
+          "pergunta": "Posso compartilhar acesso com outras pessoas?",
+          "resposta": "Sim. O sistema permite cadastrar múltiplos usuários com diferentes permissões — por exemplo, um usuário que só vê câmeras externas, ou outro que tem acesso a todas as câmeras mas não pode configurar o sistema."
+        },
+        {
+          "pergunta": "O que acontece quando acaba o plano de armazenamento?",
+          "resposta": "O sistema sobrescreve automaticamente as imagens mais antigas (gravar em loop), ou envia um aviso para renovação, dependendo da configuração escolhida. Você nunca perde imagens recentes por falta de espaço sem ser avisado."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{% extends 'base.html' %}
+
+{% block title %}AlarmeForte | Segurança Eletrônica no Rio de Janeiro{% endblock %}
+{% block meta_description %}AlarmeForte — 30 anos de segurança eletrônica no Rio de Janeiro. Câmeras CFTV, alarmes monitorados, portaria inteligente e controle de acesso para residências, empresas e condomínios.{% endblock %}
+
+{% block content %}
+
+  <!-- ===== HERO ===== -->
+  <section id="hero" class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="container hero-content">
+      <div class="hero-badge reveal">
+        <svg viewBox="0 0 8 8" width="8" height="8" aria-hidden="true"><circle cx="4" cy="4" r="4" fill="#84C25B"/></svg>
+        30 Anos Protegendo o Rio de Janeiro
+      </div>
+      <h1 class="hero-title reveal reveal-delay-1">
+        Segurança que o Rio<br>
+        de Janeiro confia<br>
+        <em>há 30 anos.</em>
+      </h1>
+      <p class="hero-subtitle reveal reveal-delay-2">
+        Câmeras CFTV, alarmes monitorados, portaria inteligente e controle de acesso
+        para residências, empresas e condomínios.
+      </p>
+      <div class="hero-actions reveal reveal-delay-3">
+        <a href="/#contato" class="btn btn-primary btn-lg">Solicitar Orçamento</a>
+        <a href="#servicos" class="btn btn-outline btn-lg">Ver Serviços</a>
+      </div>
+      <div class="hero-trust reveal reveal-delay-4">
+        <span>
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          {{ site.telefone }}
+        </span>
+        <span class="trust-sep" aria-hidden="true">·</span>
+        <span>Atendimento 24h</span>
+        <span class="trust-sep" aria-hidden="true">·</span>
+        <span>{{ site.cidade }}</span>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator" aria-hidden="true">
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== SERVIÇOS ===== -->
+  <section id="servicos" class="section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Nossos Serviços</span>
+        <h2 class="section-title">Soluções completas de<br>segurança eletrônica</h2>
+        <p class="section-subtitle">Projetos customizados para cada necessidade — residencial, comercial ou condominial.</p>
+      </div>
+      <div class="services-grid">
+
+        <article class="service-card reveal">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="8" width="13" height="8" rx="1"/>
+              <path d="M15 11l4.55-2.28A1 1 0 0121 9.57V14.4a1 1 0 01-1.45.9L15 13"/>
+              <circle cx="8" cy="12" r="1.5"/>
+            </svg>
+          </div>
+          <h3>Sistema de CFTV</h3>
+          <p>Câmeras HD para monitoramento de residências, empresas e condomínios, com acesso remoto via celular.</p>
+          <a href="/servicos/cftv/" class="service-link">Saiba mais →</a>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2C8.13 2 5 5.13 5 9v4l-2 2v1h18v-1l-2-2V9c0-3.87-3.13-7-7-7zm0 20c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2z"/>
+            </svg>
+          </div>
+          <h3>Alarme Monitorado 24h</h3>
+          <p>Central de monitoramento ativa 24 horas com resposta de emergência imediata para sua segurança.</p>
+          <a href="/servicos/alarme-monitorado/" class="service-link">Saiba mais →</a>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="2"/>
+              <path d="M9 3v18M15 9h1M15 12h1M15 15h1"/>
+            </svg>
+          </div>
+          <h3>Portaria Inteligente</h3>
+          <p>Gerencie o acesso ao seu condomínio remotamente. Redução de até <strong>60% nos custos</strong> em relação à portaria tradicional.</p>
+          <a href="/servicos/portaria-inteligente/" class="service-link">Saiba mais →</a>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+            </svg>
+          </div>
+          <h3>Interfonia Condominial</h3>
+          <p>Sistemas analógicos e digitais de interfonia para condomínios — instalação completa e manutenção especializada.</p>
+          <a href="/servicos/interfonia/" class="service-link">Saiba mais →</a>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/>
+              <path d="M12 8v4l3 3"/>
+            </svg>
+          </div>
+          <h3>Controle de Acesso Facial</h3>
+          <p>Biometria facial para controle de acesso seguro — sem chaves, sem cartões, sem falhas humanas.</p>
+          <a href="/servicos/controle-acesso/" class="service-link">Saiba mais →</a>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 10h-1.26A8 8 0 109 20h9a5 5 0 000-10z"/>
+            </svg>
+          </div>
+          <h3>Monitoramento Remoto</h3>
+          <p>Backup de imagens na nuvem e monitoramento remoto — acesse suas câmeras de qualquer lugar, a qualquer hora.</p>
+          <a href="/servicos/monitoramento-remoto/" class="service-link">Saiba mais →</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== POR QUE ALARMEFORTE ===== -->
+  <section id="sobre" class="section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Por que a AlarmeForte?</span>
+        <h2 class="section-title section-title-light">30 anos é uma história.<br><em>Segurança é nossa tradição.</em></h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card reveal">
+          <div class="feature-number" aria-hidden="true">01</div>
+          <h3>30 Anos no Mercado</h3>
+          <p>Desde 1992 no Rio de Janeiro. Gerações de clientes que confiam na AlarmeForte para proteger o que é mais importante.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-number" aria-hidden="true">02</div>
+          <h3>Projetos Sob Medida</h3>
+          <p>Não existe solução genérica. Cada projeto é desenvolvido para a realidade específica do cliente — residência, empresa ou condomínio.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-number" aria-hidden="true">03</div>
+          <h3>Atendimento 24 Horas</h3>
+          <p>Central de monitoramento ativa a noite toda. Em caso de emergência, nossa equipe responde 24h por dia, 7 dias por semana.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-number" aria-hidden="true">04</div>
+          <h3>Especialistas no Rio</h3>
+          <p>Conhecemos a realidade da segurança carioca. Equipe técnica experiente, treinada para as especificidades da cidade.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NÚMEROS ===== -->
+  <section id="numeros" class="section-stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item reveal">
+          <div class="stat-value">
+            <span class="stat-number" data-target="30">0</span><span class="stat-suffix">+</span>
+          </div>
+          <span class="stat-label">Anos de Experiência</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item reveal">
+          <div class="stat-value">
+            <span class="stat-number" data-target="1500">0</span><span class="stat-suffix">+</span>
+          </div>
+          <span class="stat-label">Clientes Atendidos</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item reveal">
+          <div class="stat-value">
+            <span class="stat-number" data-target="8000">0</span><span class="stat-suffix">+</span>
+          </div>
+          <span class="stat-label">Projetos Realizados</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item reveal">
+          <div class="stat-value">
+            <span class="stat-number">24</span><span class="stat-suffix">h</span>
+          </div>
+          <span class="stat-label">Suporte Contínuo</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COMO FUNCIONA ===== -->
+  <section id="como-funciona" class="section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Como Funciona</span>
+        <h2 class="section-title">Do diagnóstico à proteção<br>em 3 passos</h2>
+      </div>
+      <div class="steps-grid">
+        <div class="step reveal">
+          <div class="step-number" aria-hidden="true">01</div>
+          <h3>Diagnóstico Gratuito</h3>
+          <p>Nossa equipe visita o local, identifica as vulnerabilidades e entende as necessidades específicas de segurança — sem custo.</p>
+        </div>
+        <div class="step-connector" aria-hidden="true">
+          <svg viewBox="0 0 40 16" fill="none"><path d="M0 8h36M30 2l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="step reveal">
+          <div class="step-number" aria-hidden="true">02</div>
+          <h3>Projeto e Instalação</h3>
+          <p>Desenvolvemos um projeto customizado e realizamos a instalação profissional com equipamentos de qualidade comprovada.</p>
+        </div>
+        <div class="step-connector" aria-hidden="true">
+          <svg viewBox="0 0 40 16" fill="none"><path d="M0 8h36M30 2l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="step reveal">
+          <div class="step-number" aria-hidden="true">03</div>
+          <h3>Monitoramento Contínuo</h3>
+          <p>Ativamos o monitoramento 24h e oferecemos suporte técnico permanente para manter sua segurança sempre ativa.</p>
+        </div>
+      </div>
+      <div class="steps-cta reveal">
+        <a href="/#contato" class="btn btn-primary btn-lg">Agendar Diagnóstico Gratuito</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTATO ===== -->
+  <section id="contato" class="section-dark">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <span class="section-label">Fale Conosco</span>
+          <h2 class="section-title section-title-light">Fale com nossos<br><em>especialistas</em></h2>
+          <p class="contact-subtitle">Resposta em até 30 minutos durante horário comercial. Diagnóstico gratuito, sem compromisso.</p>
+          <div class="contact-details">
+            <a href="tel:{{ site.telefone_link }}" class="contact-item">
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="18" height="18">
+                  <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+                </svg>
+              </div>
+              <div>
+                <span class="contact-label">Telefone</span>
+                <span class="contact-value">{{ site.telefone }}</span>
+              </div>
+            </a>
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" width="18" height="18">
+                  <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+                </svg>
+              </div>
+              <div>
+                <span class="contact-label">Atendimento</span>
+                <span class="contact-value">24 horas, 7 dias por semana</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="18" height="18">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+              </div>
+              <div>
+                <span class="contact-label">Localização</span>
+                <span class="contact-value">{{ site.cidade }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrapper reveal">
+          <form id="contactForm" class="contact-form" action="https://formspree.io/f/mzdkrook" method="POST">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Nome completo</label>
+                <input type="text" id="name" name="name" placeholder="Seu nome" required autocomplete="name">
+              </div>
+              <div class="form-group">
+                <label for="phone">Telefone / WhatsApp</label>
+                <input type="tel" id="phone" name="phone" placeholder="(21) 99999-9999" required autocomplete="tel">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="seu@email.com" required autocomplete="email">
+            </div>
+            <div class="form-group">
+              <label for="service">Serviço de interesse</label>
+              <select id="service" name="service">
+                <option value="">Selecione um serviço...</option>
+                {% for s in servicos %}
+                <option>{{ s.titulo }}</option>
+                {% endfor %}
+                <option>Assistência Técnica</option>
+                <option>Outro / Não sei ainda</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Mensagem <span class="label-optional">(opcional)</span></label>
+              <textarea id="message" name="message" rows="3" placeholder="Descreva brevemente sua necessidade..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full btn-lg" id="submitBtn">
+              <span class="btn-text">Solicitar Orçamento Gratuito</span>
+              <span class="btn-loading" hidden>Enviando...</span>
+            </button>
+            <p class="form-note">Sem compromisso. Diagnóstico gratuito.</p>
+          </form>
+          <div id="formSuccess" class="form-success" hidden>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="56" height="56">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14" stroke-linecap="round" stroke-linejoin="round"/>
+              <polyline points="22 4 12 14.01 9 11.01" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <h3>Mensagem recebida!</h3>
+            <p>Nossa equipe entrará em contato em até 30 minutos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% endblock %}

@@ -1,0 +1,114 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ post.titulo }} | Blog AlarmeForte{% endblock %}
+{% block meta_description %}{{ post.meta_description }}{% endblock %}
+{% block og_title %}{{ post.titulo }} | AlarmeForte{% endblock %}
+{% block og_description %}{{ post.meta_description }}{% endblock %}
+
+{% block extra_head %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ post.titulo }}",
+  "description": "{{ post.meta_description }}",
+  "datePublished": "{{ post.data_publicacao }}",
+  "author": {
+    "@type": "Organization",
+    "name": "AlarmeForte"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AlarmeForte",
+    "url": "{{ site.url }}"
+  }
+}
+</script>
+{% endblock %}
+
+{% block content %}
+
+  <!-- BREADCRUMB -->
+  <div class="breadcrumb-bar navbar-offset">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Navegação estrutural">
+        <a href="/">Início</a>
+        <span class="breadcrumb-sep" aria-hidden="true">›</span>
+        <a href="/noticias/">Blog</a>
+        <span class="breadcrumb-sep" aria-hidden="true">›</span>
+        <span class="breadcrumb-current">{{ post.titulo }}</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- POST HEADER -->
+  <header class="post-header">
+    <div class="container post-header-content">
+      <div class="post-meta">
+        <span class="post-meta-date">{{ post.data_publicacao }}</span>
+        {% if post.tags %}
+        <span>·</span>
+        {% for tag in post.tags[:3] %}
+        <span>{{ tag }}</span>{% if not loop.last %}<span>·</span>{% endif %}
+        {% endfor %}
+        {% endif %}
+      </div>
+      <h1 class="post-title">{{ post.titulo }}</h1>
+    </div>
+  </header>
+
+  <!-- POST BODY -->
+  <div class="post-body">
+    <div class="container">
+      <article class="post-content" id="post-content">
+        <!-- Conteúdo markdown convertido para HTML pelo JS abaixo -->
+        <div id="post-markdown" style="display:none">{{ post.conteudo }}</div>
+
+        <div class="post-cta">
+          <h3>Precisa de segurança eletrônica no Rio de Janeiro?</h3>
+          <p>A AlarmeForte tem 30 anos de experiência em residências, empresas e condomínios. Diagnóstico gratuito, sem compromisso.</p>
+          <div style="display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;">
+            <a href="/#contato" class="btn btn-primary">Solicitar Orçamento Gratuito</a>
+            <a href="https://wa.me/{{ site.whatsapp }}" class="btn btn-outline" target="_blank" rel="noopener">Falar no WhatsApp</a>
+          </div>
+        </div>
+
+        <div style="margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--border-light);">
+          <a href="/noticias/" style="font-size: 0.875rem; color: var(--green-primary); font-weight: 600; transition: color 0.2s;">← Voltar ao blog</a>
+        </div>
+      </article>
+    </div>
+  </div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function() {
+  var container = document.getElementById('post-content');
+  var raw = document.getElementById('post-markdown').textContent.trim();
+  var html = raw
+    .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+    .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.+?)\*/g, '<em>$1</em>')
+    .replace(/^- (.+)$/gm, '<li>$1</li>')
+    .replace(/(<li>[^\n]+<\/li>(\n<li>[^\n]+<\/li>)*)/g, '<ul>$1</ul>')
+    .split(/\n\n+/)
+    .map(function(b) {
+      b = b.trim();
+      if (!b) return '';
+      if (/^<(h[23]|ul)/.test(b)) return b;
+      return '<p>' + b.replace(/\n/g, ' ') + '</p>';
+    })
+    .filter(Boolean)
+    .join('\n');
+
+  var cta = container.querySelector('.post-cta');
+  var back = container.querySelector('div[style*="margin-top: 48px"]');
+  container.innerHTML = html;
+  if (cta) container.appendChild(cta);
+  if (back) container.appendChild(back);
+})();
+</script>
+{% endblock %}

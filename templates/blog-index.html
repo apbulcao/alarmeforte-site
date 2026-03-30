@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+{% block title %}Blog — Segurança Eletrônica no Rio de Janeiro | AlarmeForte{% endblock %}
+{% block meta_description %}Artigos sobre segurança eletrônica no Rio de Janeiro. Dicas de câmeras, alarmes, portaria inteligente e controle de acesso. Blog da AlarmeForte.{% endblock %}
+
+{% block content %}
+
+  <!-- BREADCRUMB -->
+  <div class="breadcrumb-bar navbar-offset">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Navegação estrutural">
+        <a href="/">Início</a>
+        <span class="breadcrumb-sep" aria-hidden="true">›</span>
+        <span class="breadcrumb-current">Blog</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section class="page-hero">
+    <div class="container page-hero-content">
+      <span class="section-label">Blog AlarmeForte</span>
+      <h1 class="page-hero-title">Segurança eletrônica<br><em>para o dia a dia</em></h1>
+      <p class="page-hero-subtitle">Dicas, novidades e guias práticos sobre câmeras, alarmes, portaria inteligente e controle de acesso para quem vive no Rio de Janeiro.</p>
+    </div>
+  </section>
+
+  <!-- ARTIGOS -->
+  <section class="section-light">
+    <div class="container">
+      {% if posts %}
+      <div class="blog-grid">
+        {% for post in posts %}
+        <article class="blog-card reveal">
+          <div class="blog-card-img" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <div class="blog-card-body">
+            <p class="blog-card-date">{{ post.data_publicacao }}</p>
+            <h2 class="blog-card-title">{{ post.titulo }}</h2>
+            <p class="blog-card-excerpt">{{ post.resumo }}</p>
+            <a href="/noticias/{{ post.slug }}/" class="blog-card-link">Ler artigo →</a>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+      {% else %}
+      <div style="text-align: center; padding: 80px 0;">
+        <p style="font-family: var(--font-display); font-size: 1.4rem; color: var(--text-gray); margin-bottom: 24px;">Em breve, novos artigos por aqui.</p>
+        <a href="/#contato" class="btn btn-primary btn-lg">Fale com a AlarmeForte</a>
+      </div>
+      {% endif %}
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section-dark">
+    <div class="container" style="text-align: center; max-width: 640px;">
+      <span class="section-label">Diagnóstico Gratuito</span>
+      <h2 class="section-title section-title-light" style="margin-bottom: 16px;">Quer proteger sua<br><em>residência ou empresa?</em></h2>
+      <p style="color: var(--text-muted); margin-bottom: 36px; font-size: 1rem; line-height: 1.7;">
+        Nossa equipe visita o local, identifica vulnerabilidades e apresenta um projeto sob medida — sem custo.
+      </p>
+      <a href="/#contato" class="btn btn-primary btn-lg">Solicitar Diagnóstico Gratuito</a>
+    </div>
+  </section>
+
+{% endblock %}

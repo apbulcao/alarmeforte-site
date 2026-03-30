@@ -1,0 +1,179 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ servico.meta_title }}{% endblock %}
+{% block meta_description %}{{ servico.meta_description }}{% endblock %}
+{% block og_title %}{{ servico.meta_title }}{% endblock %}
+{% block og_description %}{{ servico.meta_description }}{% endblock %}
+
+{% block extra_head %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "{{ servico.titulo }}",
+  "description": "{{ servico.meta_description }}",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "AlarmeForte",
+    "telephone": "{{ site.telefone_link }}",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rio de Janeiro",
+      "addressRegion": "RJ",
+      "addressCountry": "BR"
+    }
+  },
+  "areaServed": "Rio de Janeiro"
+}
+</script>
+{% endblock %}
+
+{% block content %}
+
+  <!-- BREADCRUMB -->
+  <div class="breadcrumb-bar navbar-offset">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Navegação estrutural">
+        <a href="/">Início</a>
+        <span class="breadcrumb-sep" aria-hidden="true">›</span>
+        <a href="/#servicos">Serviços</a>
+        <span class="breadcrumb-sep" aria-hidden="true">›</span>
+        <span class="breadcrumb-current">{{ servico.titulo }}</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container page-hero-content">
+      <span class="section-label">{{ servico.titulo }}</span>
+      <h1 class="page-hero-title">{{ servico.titulo }}</h1>
+      <p class="page-hero-subtitle">{{ servico.hero_subtitulo }}</p>
+      <div class="hero-actions">
+        <a href="/#contato" class="btn btn-primary btn-lg">Solicitar Orçamento Gratuito</a>
+        <a href="tel:{{ site.telefone_link }}" class="btn btn-outline btn-lg">{{ site.telefone }}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- O QUE É / COMO FUNCIONA -->
+  <section class="section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">O que é</span>
+        <h2 class="section-title">Como funciona o<br><em>{{ servico.titulo }}</em></h2>
+      </div>
+      <div style="max-width: 760px; margin: 0 auto;">
+        {% for paragrafo in servico.descricao %}
+        <p style="font-size: 1rem; color: var(--text-gray); line-height: 1.8; margin-bottom: 22px;">{{ paragrafo }}</p>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAIS -->
+  <section class="section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Por que AlarmeForte</span>
+        <h2 class="section-title section-title-light">O que nos diferencia<br><em>na prática</em></h2>
+      </div>
+      <div class="services-grid">
+        {% for d in servico.diferenciais %}
+        <div class="feature-card reveal">
+          <div class="feature-number" aria-hidden="true">0{{ loop.index }}</div>
+          <h3>{{ d.titulo }}</h3>
+          <p>{{ d.descricao }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- PARA QUEM É -->
+  <section class="section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Para quem é</span>
+        <h2 class="section-title">{{ servico.titulo }}<br><em>para cada necessidade</em></h2>
+      </div>
+      <div class="perfis-grid">
+        {% for p in servico.perfis %}
+        <div class="perfil-card reveal">
+          <div class="perfil-tipo">{{ p.tipo }}</div>
+          <ul>
+            {% for b in p.beneficios %}
+            <li>{{ b }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-light" style="padding-top: 0;">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Dúvidas Frequentes</span>
+        <h2 class="section-title">Perguntas sobre<br><em>{{ servico.titulo }}</em></h2>
+      </div>
+      <div class="faq-list">
+        {% for faq in servico.faqs %}
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            {{ faq.pergunta }}
+            <svg class="faq-icon" viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+              <path d="M8 3v10M3 8h10"/>
+            </svg>
+          </button>
+          <div class="faq-answer">{{ faq.resposta }}</div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="section-dark">
+    <div class="container" style="text-align: center; max-width: 680px;">
+      <span class="section-label">Próximo Passo</span>
+      <h2 class="section-title section-title-light" style="margin-bottom: 16px;">
+        Pronto para proteger<br><em>o que importa?</em>
+      </h2>
+      <p style="color: var(--text-muted); margin-bottom: 36px; font-size: 1rem; line-height: 1.7;">
+        Diagnóstico gratuito, sem compromisso. Nossa equipe visita o local e apresenta uma proposta personalizada.
+      </p>
+      <div style="display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;">
+        <a href="/#contato" class="btn btn-primary btn-lg">Solicitar Diagnóstico Gratuito</a>
+        <a href="https://wa.me/{{ site.whatsapp }}?text=Olá!%20Tenho%20interesse%20em%20{{ servico.titulo | urlencode }}." class="btn btn-outline btn-lg" target="_blank" rel="noopener">Falar no WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+// FAQ accordion
+document.querySelectorAll('.faq-question').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const answer = btn.nextElementSibling;
+    const isOpen = btn.classList.contains('open');
+    // Close all
+    document.querySelectorAll('.faq-question').forEach(b => {
+      b.classList.remove('open');
+      b.setAttribute('aria-expanded', 'false');
+      b.nextElementSibling.classList.remove('open');
+    });
+    // Open clicked if was closed
+    if (!isOpen) {
+      btn.classList.add('open');
+      btn.setAttribute('aria-expanded', 'true');
+      answer.classList.add('open');
+    }
+  });
+});
+</script>
+{% endblock %}
