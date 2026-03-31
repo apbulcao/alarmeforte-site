@@ -8,9 +8,9 @@
    =========================== */
 :root {
   /* Colors */
-  --dark-bg:        #080E09;
-  --dark-card:      #0D1810;
-  --dark-border:    #1A2E1D;
+  --dark-bg:        #092A15;
+  --dark-card:      #0B2018;
+  --dark-border:    #1B3526;
   --green-primary:  #1F693A;
   --green-accent:   #84C25B;
   --green-glow:     rgba(132, 194, 91, 0.15);
@@ -157,7 +157,7 @@ input, select, textarea, button { font-family: inherit; }
 }
 
 .navbar.scrolled {
-  background: rgba(8, 14, 9, 0.94);
+  background: rgba(9, 42, 21, 0.94);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   padding: 12px 0;
@@ -812,7 +812,7 @@ input, select, textarea, button { font-family: inherit; }
   background-position: right 14px center;
   padding-right: 36px;
 }
-.form-group select option { background: #0D1810; color: var(--text-light); }
+.form-group select option { background: #0B2018; color: var(--text-light); }
 
 .form-group input::placeholder,
 .form-group textarea::placeholder { color: rgba(240,245,241,0.22); }
@@ -965,7 +965,7 @@ input, select, textarea, button { font-family: inherit; }
   .nav-links {
     position: fixed;
     top: 60px; left: 0; right: 0; bottom: 0;
-    background: rgba(8, 14, 9, 0.97);
+    background: rgba(9, 42, 21, 0.97);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     flex-direction: column;
@@ -1208,9 +1208,10 @@ input, select, textarea, button { font-family: inherit; }
 
 .nav-dropdown-menu {
   position: absolute;
-  top: calc(100% + 14px);
+  top: 100%;
+  padding-top: 14px;
   left: -16px;
-  background: rgba(8, 14, 9, 0.97);
+  background: rgba(9, 42, 21, 0.97);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid var(--dark-border);
@@ -1223,15 +1224,7 @@ input, select, textarea, button { font-family: inherit; }
   transition: opacity var(--t), transform var(--t);
   z-index: 200;
 }
-/* Ponte invisível que cobre o vão entre o botão e o menu */
-.nav-dropdown-menu::before {
-  content: '';
-  position: absolute;
-  top: -14px;
-  left: 0;
-  right: 0;
-  height: 14px;
-}
+
 .nav-dropdown-wrapper.open .nav-dropdown-menu {
   opacity: 1;
   pointer-events: all;
@@ -1251,6 +1244,41 @@ input, select, textarea, button { font-family: inherit; }
   color: var(--text-light);
 }
 .nav-dropdown-menu a::after { display: none; }
+
+/* ===========================
+   SERVICO SPLIT (imagem + texto)
+   =========================== */
+.servico-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+.servico-split-text .section-label::before { right: calc(100% - 20px); }
+.servico-split-text .section-label::after  { left:  calc(100% - 20px); }
+.servico-split-image {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  aspect-ratio: 4 / 3;
+}
+.servico-split-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s ease;
+}
+.servico-split-image:hover img { transform: scale(1.03); }
+
+@media (max-width: 860px) {
+  .servico-split {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+  .servico-split-image { aspect-ratio: 16 / 9; }
+  .servico-split-text .section-header { text-align: center; }
+}
 
 /* ===========================
    PERFIS (Para quem é)

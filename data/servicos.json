@@ -3,6 +3,8 @@
     {
       "titulo": "Sistema de CFTV",
       "slug": "cftv",
+      "imagem": "https://alarmeforte.com.br/wp-content/uploads/2023/08/cameras-1.webp",
+      "imagem_alt": "Câmeras de segurança CFTV instaladas",
       "meta_title": "Sistema de CFTV no Rio de Janeiro | AlarmeForte",
       "meta_description": "Câmeras de segurança HD com monitoramento remoto para residências, empresas e condomínios no Rio de Janeiro. Instalação profissional desde 1992. Orçamento gratuito.",
       "hero_subtitulo": "Câmeras HD com acesso remoto 24h via celular — para sua residência, empresa ou condomínio no Rio de Janeiro.",
@@ -69,6 +71,8 @@
     {
       "titulo": "Alarme Monitorado 24h",
       "slug": "alarme-monitorado",
+      "imagem": "https://alarmeforte.com.br/wp-content/uploads/2024/12/products-1024x361.png.webp",
+      "imagem_alt": "Central de alarme e sensores Intelbras",
       "meta_title": "Alarme Monitorado 24h no Rio de Janeiro | AlarmeForte",
       "meta_description": "Alarme monitorado com central própria 24 horas para residências, empresas e condomínios no Rio de Janeiro. Resposta imediata a qualquer acionamento. Orçamento gratuito.",
       "hero_subtitulo": "Central de monitoramento própria, ativa 24 horas — com resposta imediata a qualquer acionamento no Rio de Janeiro.",
@@ -135,6 +139,8 @@
     {
       "titulo": "Portaria Inteligente",
       "slug": "portaria-inteligente",
+      "imagem": "https://alarmeforte.com.br/wp-content/uploads/2023/08/PHOTO-2021-06-17-13-38-39-3.webp",
+      "imagem_alt": "Sistema de portaria inteligente com interfone",
       "meta_title": "Portaria Inteligente para Condomínios no Rio de Janeiro | AlarmeForte",
       "meta_description": "Portaria inteligente e virtual para condomínios no Rio de Janeiro. Reduza até 60% dos custos com porteiro tradicional. Controle remoto, câmeras e interfonia 24h. Orçamento gratuito.",
       "hero_subtitulo": "Gerencie o acesso ao seu condomínio remotamente — com redução de até 60% em relação à portaria tradicional.",
@@ -197,6 +203,8 @@
     {
       "titulo": "Interfonia Condominial",
       "slug": "interfonia",
+      "imagem": "https://alarmeforte.com.br/wp-content/uploads/2024/12/tvip-3000-wifi-tecnologia-wifi.jpg.webp",
+      "imagem_alt": "Interfone IP com vídeo para condomínios",
       "meta_title": "Interfonia Condominial no Rio de Janeiro | AlarmeForte",
       "meta_description": "Instalação e manutenção de interfonia condominial no Rio de Janeiro. Sistemas analógicos e digitais, todas as marcas. Mais de 30 anos de experiência. Orçamento gratuito.",
       "hero_subtitulo": "Sistemas de interfonia analógicos e digitais para condomínios — instalação profissional e manutenção especializada no Rio de Janeiro.",
@@ -259,6 +267,8 @@
     {
       "titulo": "Controle de Acesso Facial",
       "slug": "controle-acesso",
+      "imagem": "https://alarmeforte.com.br/wp-content/uploads/2024/12/controlador-de-acesso-facial-ss-7530-face-leitura-rapida-e-precisa.png.webp",
+      "imagem_alt": "Controlador de acesso facial SS-7530 Intelbras",
       "meta_title": "Controle de Acesso Facial no Rio de Janeiro | AlarmeForte",
       "meta_description": "Controle de acesso por biometria facial para residências, empresas e condomínios no Rio de Janeiro. Sem chaves, sem cartões, máxima segurança. Orçamento gratuito.",
       "hero_subtitulo": "Biometria facial para controle de acesso — sem chaves, sem cartões, sem falhas humanas.",
@@ -321,6 +331,8 @@
     {
       "titulo": "Monitoramento Remoto",
       "slug": "monitoramento-remoto",
+      "imagem": "https://alarmeforte.com.br/wp-content/uploads/2023/07/casa-segura.png.webp",
+      "imagem_alt": "Monitoramento remoto de câmeras pelo celular",
       "meta_title": "Monitoramento Remoto de Câmeras no Rio de Janeiro | AlarmeForte",
       "meta_description": "Monitoramento remoto de câmeras com backup em nuvem para residências e empresas no Rio de Janeiro. Acesse de qualquer lugar, a qualquer hora. Orçamento gratuito.",
       "hero_subtitulo": "Acesse suas câmeras de qualquer lugar e tenha as imagens protegidas em nuvem — 24 horas, 7 dias por semana.",

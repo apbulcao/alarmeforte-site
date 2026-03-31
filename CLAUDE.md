@@ -31,7 +31,7 @@ alarmeforte-site/
 7. `footer` — Links, contato, copyright
 
 ## Design System
-- Background dark: `#080E09` | Verde primário: `#1F693A` | Acento: `#84C25B`
+- Background dark: `#092A15` | Verde primário: `#1F693A` | Acento: `#84C25B`
 - Display font: EB Garamond | Body font: DM Sans
 - Conceito: "Fortaleza" — autoridade, tradição, confiança
 - Todas as variáveis CSS estão em `:root` no `style.css`

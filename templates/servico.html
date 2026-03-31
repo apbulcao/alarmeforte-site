@@ -59,6 +59,22 @@
   <!-- O QUE É / COMO FUNCIONA -->
   <section class="section-light">
     <div class="container">
+      {% if servico.imagem %}
+      <div class="servico-split">
+        <div class="servico-split-text">
+          <div class="section-header" style="text-align: left; margin-bottom: 32px;">
+            <span class="section-label">O que é</span>
+            <h2 class="section-title">Como funciona o<br><em>{{ servico.titulo }}</em></h2>
+          </div>
+          {% for paragrafo in servico.descricao %}
+          <p style="font-size: 1rem; color: var(--text-gray); line-height: 1.8; margin-bottom: 22px;">{{ paragrafo }}</p>
+          {% endfor %}
+        </div>
+        <div class="servico-split-image">
+          <img src="{{ servico.imagem }}" alt="{{ servico.imagem_alt }}" loading="lazy">
+        </div>
+      </div>
+      {% else %}
       <div class="section-header">
         <span class="section-label">O que é</span>
         <h2 class="section-title">Como funciona o<br><em>{{ servico.titulo }}</em></h2>
@@ -68,6 +84,7 @@
         <p style="font-size: 1rem; color: var(--text-gray); line-height: 1.8; margin-bottom: 22px;">{{ paragrafo }}</p>
         {% endfor %}
       </div>
+      {% endif %}
     </div>
   </section>
 
